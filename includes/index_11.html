@@ -35,7 +35,7 @@ int number5 = 30;</code></pre>
 	
 	<p style="position: absolute; top:7em; left:7.9em">Idea</p>
 	
-    <img style="position: absolute; top:10em; left:2em" data-src="includes/pictures/Arrays0.PNG">
+    <img style="position: absolute; top:10em; left:2em" data-src="includes/pictures/Felder0.PNG">
 
 	<p style="position: absolute; top:7em; left:30em">In code</p>
     <br><br>
@@ -223,12 +223,12 @@ array = {{10,15},{20,25,30},{35}};</code></pre>
 	<ul>
 		<li>Create the following array!</li>
 		<li><strong>Do not</strong> initialize the array directly!</li>
-		<img data-src="includes/pictures/Arrays1.PNG">
+		<img data-src="includes/pictures/Felder1.PNG">
 	</ul>
 </section>
 
 <section>
-	<h2>Aufgabe 29 - "Arrays I"<br>(Solution)</h2>
+	<h2>Exercise 29 - "Arrays I"<br>(Solution)</h2>
 	<pre class="java"><code>int[][][] array = new int[2][2][2];
 array[0][0][0] = 1;
 array[0][0][1] = 1;
@@ -245,7 +245,7 @@ array[1][1][1] = 3;
 <section>
 	<h2>Exercise 30 - "Arrays II"</h2>
 	<ul>
-		<li>Why can the following array not be initialized directly?</li>
+		<li>Why can the following array only be initialized directly?</li>
 		<img data-src="includes/pictures/Felder2.PNG">
 	</ul>
 </section>
@@ -280,7 +280,7 @@ array[1][1][1] = 3;
 	<h2>Exercise 32 - "Arrays IV"</h2>
 	<ul>
 		<li>Ask for an integer value and read it in.</li>
-		<li>Create a one-dimensional array of the length of the read in value.</li>
+		<li>Create a one-dimensional array of the length of the read-in value.</li>
 		<li>Initialize the array with the index of the position.</li>
 		<pre class="java"><code>array[i] = i;</code></pre>
 		<li>Output the array on the console.</li>
@@ -359,13 +359,13 @@ class Exercise33 {
 	<h2>Exercise 34 - "Arrays VI"<br>(Solution)</h2>
 
 	<pre class="java"><code style="font-size:1em;">import java.util.Scanner;
-class Exercise33 {
+class Exercise34 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the number of names!");
         int size = scanner.nextInt();
         String[] name = new String[size];
-        int[][] telefonnummer = new int[size][2];
+        int[][] telephonenumber = new int[size][2];
         for(int i = 0; i &lt; name.length; i++) {
             System.out.println("Name :");
             name[i] = scanner.next();
