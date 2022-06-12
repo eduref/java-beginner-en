@@ -1,19 +1,19 @@
 <section>
-<h1>While-Schleife</h1>
+<h1>While loop</h1>
 </section>
 
 <section>
-<h2>While-Schleife</h2>
+<h2>While loop</h2>
 <img style="left:0em; width:50%;" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/959409/images/5649378/image29.gif">
 </section>
 
 <section>
-	<h2>While-Schleife</h2>
+	<h2>While loop</h2>
 
 	<ul>
-		<li>Wir wollen die Zahlen 1 bis 50 ausgeben.</li>
-		<li>Auf herkömmliche Weise ist das viel Schreibaufwand.</li>
-		<pre class="java"><code>class WhileSchleife {
+		<li>We want to output the numbers 1 to 50.</li>
+		<li>In the conventional way, this is a lot of work.</li>
+		<pre class="java"><code>class WhileLoop {
     public static void main(String[] args) {
         System.out.println("1"); 
         System.out.println("2");
@@ -29,65 +29,65 @@
 </section>
 
 <section>
-	<h2>While-Schleife</h2>
+	<h2>While loop</h2>
 
 	<ul>
-		<li>Dafür gibt es die While-Schleife.</li>
-		<li>Ein Code-Block der ausgeführt wird, solange eine Bedingung erfüllt ist.</li>
+		<li>This is what the While loop is for.</li>
+		<li>A block of code that is executed as long as a condition is met.</li>
 		<img style="left:45%;" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/959409/images/5649389/pasted-from-clipboard.png">
 	</ul>
 
 </section>
 
 <section>
-	<h2>While-Schleife Syntax</h2>
+	<h2>While loop Syntax</h2>
 
 	<ul>
-		<li>Im Code sieht das folgendermaßen aus:</li>
+		<li>In the code it looks like this:</li>
 		<br>
-		<pre class="java"><code>while(LogischerAusdruck) {
-    //Code-Block
+		<pre class="java"><code>while(LogicalExpression) {
+    //Code block
 }</code></pre>
 		<br>
-		<li>So funkioniert sie:</li>
+		<li>This is how it works:</li>
 		<ol>
-			<li> Der logische Ausdruck wird überprüft.</li>
-			<li>Wenn der Ausdruck wahr ist, wird der Code-Block ausgeführt und das Programm springt zurück zum 1. Schritt.</li>
-			<li>Wenn der Ausdruck false ist, wird die while-loop beendet.</li>
+			<li> The logical expression is checked.</li>
+			<li>If the expression is true, the code block is executed and the program jumps back to the 1st step.</li>
+			<li>If the expression is false, the while-loop is terminated.</li>
 		</ol>
 	</ul>
 
 </section>
 
 <section>
-	<h2>Aufgabe 23 - "While-Schleife I"</h2>
+	<h2>Exercise 23 - "While loop I"</h2>
 
 	<ul>
-		<li>Was gibt folgender Code aus?</li>
-		<pre class="java"><code>class Aufgabe23 {
+		<li>What does the following code output?</li>
+		<pre class="java"><code>class Exercise23 {
     public static void main(String[] args) {
-        int zahl = 1;
+        int number = 1;
         
-        while(zahl &lt;= 10) {
-            System.out.println(zahl);
-            zahl++;
+        while(number &lt;= 10) {
+            System.out.println(number);
+            number++;
         }
     }
 }</code></pre>
-		<li>Welche Parameter haben Einfluss auf die Anzahl an Wiederholungen der Schleife?</li>
+		<li>Which parameters influence the number of repetitions of the loop?</li>
 	</ul>
 	
 </section>
 
 <section>
-	<h2>Aufgabe 23 - "While-Schleife I"<br>(Lösung)</h2>
+	<h2>Exercise 23 - "While loop I"<br>(Solution)</h2>
 
 	<ul>
-		<li>Es werden die Zahlen 1 bis 10 auf der Konsole Ausgegeben.</li>
-		<pre class="java"><code>int zahl = 1;        
-while(zahl &lt;= 10) {
-    System.out.println(zahl);
-    zahl++;
+		<li>The numbers 1 to 10 are displayed on the console.</li>
+		<pre class="java"><code>int number = 1;        
+while(number &lt;= 10) {
+    System.out.println(number);
+    number++;
 }</code></pre>
 	</ul>
 	
@@ -96,38 +96,38 @@ while(zahl &lt;= 10) {
 			<line stroke-width="8" x1="15" y1="50%" x2="100%" y2 = "50%" stroke="black"/>			
 			<polygon fill="black" points="0,20 30,5 30,35"/>
 		</svg>
-		<p style="position: absolute; bottom:4.4em; left:33em; font-size:0.8em;">legt Start fest</p>
+		<p style="position: absolute; bottom:4.4em; left:33em; font-size:0.8em;">Sets start</p>
 	</div>
 	<div>
 		<svg height="40" width="10em" style="bottom:3em; left:16em" transform="rotate(0)">
 			<line stroke-width="8" x1="15" y1="50%" x2="100%" y2 = "50%" stroke="black"/>			
 			<polygon fill="black" points="0,20 30,5 30,35"/>
 		</svg>
-		<p style="position: absolute; bottom:3.1em; left:33em; font-size:0.8em;">legt Ende fest</p>
+		<p style="position: absolute; bottom:3.1em; left:33em; font-size:0.8em;">Sets start</p>
 	</div>
 	<div>
 		<svg height="40" width="13em" style="bottom:0.75em; left:13em" transform="rotate(0)">
 			<line stroke-width="8" x1="15" y1="50%" x2="100%" y2 = "50%" stroke="black"/>			
 			<polygon fill="black" points="0,20 30,5 30,35"/>
 		</svg>
-		<p style="position: absolute; bottom:0.3em; left:33em; font-size:0.8em;">gib Schrittweite an (hier 1)</p>
+		<p style="position: absolute; bottom:0.3em; left:33em; font-size:0.8em;">specify step size (here 1)</p>
 	</div>
 
 </section>
 
 <section>
-	<h2>Aufgabe 24 - "While-Schleife II"</h2>
+	<h2>Exercise 24 - "While loop II"</h2>
 	
 	<ul>
-		<li>Schreibe ein Programm, das die Zahlen 1 bis 99 ausgibt.</li>
-		<li>Zur Erinnerung:</li>
-		<pre class="java"><code>class Aufgabe23 {
+		<li>Write a program that outputs the numbers 1 to 99.</li>
+		<li>Reminder:</li>
+		<pre class="java"><code>class Exercise23 {
     public static void main(String[] args) {
-        int zahl = 1;
+        int number = 1;
         
-        while(zahl &lt;= 10) {
-            System.out.println(zahl);
-            zahl++;
+        while(number &lt;= 10) {
+            System.out.println(number);
+            number++;
         }
     }
 }</code></pre>
@@ -136,15 +136,15 @@ while(zahl &lt;= 10) {
 </section>
 
 <section>
-	<h2>Aufgabe 24 - "While-Schleife II"<br>(Lösung)</h2>
+	<h2>Exercise 24 - "While loop II"<br>(Solution)</h2>
 
 	<pre class="java"><code>class Aufgabe24 {
     public static void main(String[] args) {
-        int zahl = 1;
+        int number = 1;
         
-        while(zahl &lt; 100) {
-            System.out.println(zahl);
-            zahl++;
+        while(number &lt; 100) {
+            System.out.println(number);
+            number++;
         }
     }
 }</code></pre>
@@ -152,24 +152,24 @@ while(zahl &lt;= 10) {
 </section>
 
 <section>
-	<h2>Aufgabe 25 - "While-Schleife III"</h2>
+	<h2>Aufgabe 25 - "While loop III"</h2>
 
 	<ul>
-		<li>Schreibe ein Programm, das die Zahlen 10 bis 100 ausgibt.</li>
+		<li>Write a program that outputs the numbers 10 to 100.</li>
 	</ul>
 
 </section>
 
 <section>
-	<h2>Aufgabe 25 - "While-Schleife III"<br>(Lösung)</h2>
+	<h2>Exercise 25 - "While loop III"<br>(Solution)</h2>
 
-<pre class="java"><code>class Aufgabe24 {
+<pre class="java"><code>class Exercise24 {
     public static void main(String[] args) {
-        int zahl = 10;
+        int number = 10;
         
-        while(zahl &lt;= 100) {
-            System.out.println(zahl);
-            zahl++;
+        while(number &lt;= 100) {
+            System.out.println(zanumberhl);
+            number++;
         }
     }
 }</code></pre>
