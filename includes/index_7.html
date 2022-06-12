@@ -75,7 +75,8 @@ public class ScannerExample {
 </section>
 
 <section>
-	<h2>Exercise 15 - "Scanner I"</h2>
+	<h2>
+		15 - "Scanner I"</h2>
 
 	<ul>
 		<li>Write a program that creates a scanner.</li>
@@ -89,7 +90,7 @@ public class ScannerExample {
 <section>
 	<h2>Exercise 15 - "Scanner I"<br>(Solution)</h3>
 	<pre><code>import java.util.Scanner;
-public class Aufgabe15 {
+public class Exercise15 {
     public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in);
         String name; 
@@ -123,47 +124,47 @@ public class Aufgabe15 {
 </section>
 
 <section>
-	<h2>Aufgabe 16 - "Scanner II"<br>(Lösung)</h2>
+	<h2>Exercise 16 - "Scanner II"<br>(Solution)</h2>
 <pre><code>import java.util.Scanner;
-class Aufgabe16 {
+class Exercise16 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bitte Temperatur in Celsius eingeben!");
-        //Variable für Temperatur in Celsius 
+        System.out.println("Please enter temperature in Celsius!");
+        //Variable for temperature in Celsius 
         double celsius = scanner.nextInt(); 
-        //Variable für Temperatur in Fahrenheit 
+        //Variable for temperature in Fahrenheit
         double fahrenheit = celsius * 1.8 + 32;
-        //Ausgabe des Ergebnisses auf der Konsole 
-        System.out.println("Temperatur in Fahrenheit: " + fahrenheit);
+        //Output of the result on the console 
+        System.out.println("Temperature in Fahrenheit: " + fahrenheit);
     }
 }</code></pre>
 
 </section>
 
 <section>
-	<h2>Aufgabe 17 - "Scanner III"</h2>
+	<h2>Exercise 17 - "Scanner III"</h2>
 	<ul>
-		<li>Lese in einem Programm mithilfe eines Scanners fünf Integer ein.</li>
-		<li>Bilde die Summe dieser fünf Zahlen und gebe diese aus.</li>
-		<li>Benutzer so wenig variablen wie möglich!</li>
+		<li>Read five integers in a program using a scanner.</li>
+		<li>Calculate the sum of these five numbers and output it.</li>
+		<li>User as few variables as possible!</li>
 	</ul>
 
 </section>
 
 <section>
-	<h2>Aufgabe 17 - "Scanner III"<br>(Lösung)</h2>
+	<h2>Exercise 17 - "Scanner III"<br>(Solution)</h2>
 <pre><code class="java">import java.util.Scanner;
-class Aufgabe17 {
+class Exercise17 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int summe = 0;
-        System.out.println("Bitte gebe 5 Ineger in die Konsole ein!");
-        summe = summe + scanner.nextInt();
-        summe = summe + scanner.nextInt();
-        summe = summe + scanner.nextInt();
-        summe = summe + scanner.nextInt();  
-        summe = summe + scanner.nextInt();
-        System.out.println("Die Summe ist :" + summe);
+        int sum = 0;
+        System.out.println("Please enter 5 Ineger into the console!");
+        sum = sum + scanner.nextInt();
+        sum = sum + scanner.nextInt();
+        sum = sum + scanner.nextInt();
+        sum = sum + scanner.nextInt();  
+        sum = sum + scanner.nextInt();
+        System.out.println("The sum is:" + sum);
     }
 }</code></pre>
             
